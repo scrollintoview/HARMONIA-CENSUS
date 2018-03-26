@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 8">
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="date" type="D" value="42657.6046211227"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="bkcolor" type="I" value="12639424"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="message" type="S" value="Logged in user validated Expected : Irvin Veilleux, Actual Hello Irvin Veilleux!"/>
+			<Prp name="id" type="I" value="8"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="487"/>
+					<Prp name="click point y" type="I" value="316"/>
+					<Prp name="object top" type="I" value="299"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object right" type="I" value="767"/>
+					<Prp name="datetime" type="D" value="42657.7712133681"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="131"/>
+					<Prp name="object bottom" type="I" value="333"/>
+					<Prp name="object name" type="S" value="Aliases.BROWSER.PAGE.LOGIN_FORM.SELECT_USER"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="627"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="131"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Aliases.BROWSER.PAGE.LOGIN_FORM.SELECT_USER"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42657.6045485532"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 'User - Refund Approved' was selected."/>
+			<Prp name="id" type="I" value="1"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="487"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="348"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object right" type="I" value="767"/>
+					<Prp name="datetime" type="D" value="42657.7712237847"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="102"/>
+					<Prp name="object bottom" type="I" value="382"/>
+					<Prp name="object name" type="S" value="Aliases.BROWSER.PAGE.LOGIN_FORM.PASSWORD"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="102"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'toaFH@7519' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.BROWSER.PAGE.LOGIN_FORM.PASSWORD&#xA;(Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://ec2-54-210-196-190.compute-1.amazonaws.com/Account/Login?ReturnUrl=%2F&quot;).Panel(0).Panel(0).Panel(0).Section(&quot;loginForm&quot;).Form(0).Panel(1).Panel(0).PasswordBox(&quot;Password&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42657.6045623264"/>
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="6"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="487"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="348"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object right" type="I" value="767"/>
+					<Prp name="datetime" type="D" value="42657.7712192708"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="100"/>
+					<Prp name="object bottom" type="I" value="382"/>
+					<Prp name="object name" type="S" value="Aliases.BROWSER.PAGE.LOGIN_FORM.PASSWORD"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="100"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'^a' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.BROWSER.PAGE.LOGIN_FORM.PASSWORD&#xA;(Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://ec2-54-210-196-190.compute-1.amazonaws.com/Account/Login?ReturnUrl=%2F&quot;).Panel(0).Panel(0).Panel(0).Section(&quot;loginForm&quot;).Form(0).Panel(1).Panel(0).PasswordBox(&quot;Password&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42657.6045542245"/>
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="4"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="487"/>
+					<Prp name="click point y" type="I" value="365"/>
+					<Prp name="object top" type="I" value="348"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object right" type="I" value="767"/>
+					<Prp name="datetime" type="D" value="42657.7712157986"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="98"/>
+					<Prp name="object bottom" type="I" value="382"/>
+					<Prp name="object name" type="S" value="Aliases.BROWSER.PAGE.LOGIN_FORM.PASSWORD"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="627"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="98"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (140, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.BROWSER.PAGE.LOGIN_FORM.PASSWORD&#xA;(Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://ec2-54-210-196-190.compute-1.amazonaws.com/Account/Login?ReturnUrl=%2F&quot;).Panel(0).Panel(0).Panel(0).Section(&quot;loginForm&quot;).Form(0).Panel(1).Panel(0).PasswordBox(&quot;Password&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42657.6045505208"/>
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="3"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 0">
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="date" type="D" value="42657.6045375579"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="message" type="S" value="User Name and Password text boxes are visible for login"/>
+			<Prp name="id" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="line no" type="I" value="97"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="color" type="I" value="16711680"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42657.6045485532"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value=" ** Entering Text: &quot;toaFH@7519&quot; in TextBox **"/>
+			<Prp name="id" type="I" value="2"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42657.6046211227"/>
+			</Node>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 2" type="S" value="{5A2AFFA7-B422-40D0-B85F-6434AA306A52}"/>
+			<Prp name="unit 1" type="S" value="{5637348B-401E-4D47-9116-9F6966283FE8}"/>
+			<Prp name="unit 0" type="S" value="{B46120BC-ABA0-48BF-ADCD-76C8460B52BA}"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="487"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="348"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object right" type="I" value="767"/>
+					<Prp name="datetime" type="D" value="42657.7712218171"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="101"/>
+					<Prp name="object bottom" type="I" value="382"/>
+					<Prp name="object name" type="S" value="Aliases.BROWSER.PAGE.LOGIN_FORM.PASSWORD"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="101"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'[Del]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.BROWSER.PAGE.LOGIN_FORM.PASSWORD&#xA;(Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://ec2-54-210-196-190.compute-1.amazonaws.com/Account/Login?ReturnUrl=%2F&quot;).Panel(0).Panel(0).Panel(0).Section(&quot;loginForm&quot;).Form(0).Panel(1).Panel(0).PasswordBox(&quot;Password&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42657.6045561921"/>
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="5"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="487"/>
+					<Prp name="click point y" type="I" value="414"/>
+					<Prp name="object top" type="I" value="397"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object right" type="I" value="552"/>
+					<Prp name="datetime" type="D" value="42657.7712304977"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="133"/>
+					<Prp name="object bottom" type="I" value="431"/>
+					<Prp name="object name" type="S" value="Aliases.BROWSER.PAGE.LOGIN_FORM.LOGIN_BTN"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="519"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="133"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (32, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.BROWSER.PAGE.LOGIN_FORM.LOGIN_BTN&#xA;(Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://ec2-54-210-196-190.compute-1.amazonaws.com/Account/Login?ReturnUrl=%2F&quot;).Panel(0).Panel(0).Panel(0).Section(&quot;loginForm&quot;).Form(0).Panel(2).Panel(0).SubmitButton(&quot;btnLogin&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42657.6045657986"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="7"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>

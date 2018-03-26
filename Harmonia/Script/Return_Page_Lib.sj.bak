@@ -1,0 +1,35 @@
+﻿//USEUNIT Utility_Lib
+
+// Abstraction of tax Return Status
+
+
+function getTaxReturnStatus(){
+     try{
+           var PAGE, taxReturnLatestObj, taxReturnHistoryObj;
+               PAGE= Aliases.BROWSER.PAGE;
+               PAGE.WaitProperty("Exists",true,2000);
+              if( PAGE.TAX_RETURN_TITLE.Exists){
+                  Log.Checkpoint("Tax return Status Title verified ",'',500,attr.ver, PAGE.TAX_RETURN_TITLE);
+                  taxReturnLatestObj = {
+                        
+                   
+                  
+                  };
+                  taxReturnHistoryObj = {
+                  
+                  
+                  };
+                  
+                }else{
+                 Log.Error("Tax return Status Title could not be verified ",'',500,attr.err, PAGE);
+                }
+     
+   
+         }catch(e){
+                Log.Error("TRY CATCH ERR -- "+ e.message + " ERROR DESCRIPTION -- "+ e.description + " on --" +arguments.callee.toString().match(/function\s+\w+/)  );
+   
+         }
+
+
+} 
+
