@@ -1,29 +1,13 @@
 {
 	"PVT": {
-		"urlInternal": "https://tmng-pvt.etc.uspto.gov/TMOG/",
-		"tsdrurl": "http://pvt-tsdr.etc.uspto.gov/",
-		"urlExternal": "https://pvt-tmog.etc.uspto.gov/",
-		"internalpassword": "TMe06feb2018",
-		"dbPassword": "EOGADMIN_eiGhJaN2018",
-		"dbPasswordTRM": "TMNGRead!2016Nov21",
-		"JDBC": "jdbcora"
+		"urlInternal": "https://uspto.gov",
+		
 	},
 	"FQT": {
-		"urlInternal": "https://tmng-fqt.etc.uspto.gov/TMOG/",
-		"tsdrurl": "http://fqt-tsdr.etc.uspto.gov/",
-		"urlExternal": "https://fqt-tmog.etc.uspto.gov/",
-		"internalpassword": "TMe06feb2018",
-		"dbPassword": "EOGADMIN_eiGhJaN2018",
-		"dbPasswordTRM": "TMNGRead!2016Nov10",
-		"JDBC": "jdbcora"
+		"urlInternal": "https://www.census.gov",
+		
 	},
 	"SIT": {
-		"urlInternal": "https://tmng-sit.etc.uspto.gov/TMOG/",
-		"tsdrurl": "http://fqt-tsdr.etc.uspto.gov/",
-		"urlExternal": "https://sit-tmog.etc.uspto.gov/",
-		"internalpassword": "TMe06feb2018",
-		"dbPassword": "EOGADMIN_eiGhJaN2018",
-		"dbPasswordTRM": "TMNGRead!2016Nov10",
-		"JDBC": "jdbcora"
+		"urlInternal": "https://www.cnn.com",
 	}
 }
