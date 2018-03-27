@@ -1,4 +1,4 @@
-﻿//USEUNIT UTIL
+﻿//USEUNIT Function_Library
 
 function testlogin(user,passWord,userName){
   var userAlias, passwordAlias, LoginbtnAlias;

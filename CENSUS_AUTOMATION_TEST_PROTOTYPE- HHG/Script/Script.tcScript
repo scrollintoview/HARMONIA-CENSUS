@@ -16,8 +16,23 @@
 		<child name="MyAccount_Page_Lib" key="{3CD85BDA-6D68-48D2-91AC-24BF70C41F69}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="MyAccount_Page_Lib.sj" />
 		</child>
-		<child name="Utility_Lib" key="{6AB78329-87A4-438C-9B7C-D4E0FA53EC9C}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="Utility_Lib.sj" />
+		<child name="UTIL" key="{E7E469D0-CBFF-422A-A743-13C406940AD6}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="UTIL.sj" />
+		</child>
+		<child name="CENSUS_HOME_PAGE_LIB" key="{DB13F003-D17E-4E49-AABB-BE7B657E7E78}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="CENSUS_HOME_PAGE_LIB.sj" />
+		</child>
+		<child name="AUT_TC101_Validate_search_feature_on_Census_Home_page" key="{FC8091B9-6293-4736-A969-26BA4281774C}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="AUT_TC101_Validate_search_feature_on_Census_Home_page.sj" />
+		</child>
+		<child name="AUT_TC102_Validate_items_on_header_top_links" key="{140F5D79-D5C0-4148-8E26-EE4C44DAB3D9}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="AUT_TC102_Validate_items_on_header_top_links.sj" />
+		</child>
+		<child name="AUT_TC103_Validate_header_dropdown_on_banner" key="{E22D42EC-10CC-4B97-8399-94E4D4B61CAA}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="AUT_TC103_Validate_header_dropdown_on_banner.sj" />
+		</child>
+		<child name="SMOKE_TEST" key="{30B39072-25F8-4DE4-97F3-C3CDD265F0C8}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="SMOKE_TEST.sj" />
 		</child>
 	</children>
 	<folders>
@@ -25,7 +40,7 @@
 			<folders>
 				<folder caption="UTIL" description="A logical folder that is used to organize project items and elements." moniker="">
 					<references>
-						<ref key="{6AB78329-87A4-438C-9B7C-D4E0FA53EC9C}" />
+						<ref key="{E7E469D0-CBFF-422A-A743-13C406940AD6}" />
 					</references>
 				</folder>
 				<folder caption="FUNCTION lIB" description="A logical folder that is used to organize project items and elements." moniker="">
@@ -38,6 +53,7 @@
 						<ref key="{61C56894-AADD-4BEB-9291-3443CB7E04FE}" />
 						<ref key="{3CD85BDA-6D68-48D2-91AC-24BF70C41F69}" />
 						<ref key="{B4B97938-6961-415C-A1C0-AE43DA995489}" />
+						<ref key="{DB13F003-D17E-4E49-AABB-BE7B657E7E78}" />
 					</references>
 				</folder>
 			</folders>
@@ -45,6 +61,10 @@
 		<folder caption="AUT TEST" description="A logical folder that is used to organize project items and elements." moniker="">
 			<references>
 				<ref key="{DAE97E69-E064-4A12-804F-E185FF68FBCF}" />
+				<ref key="{FC8091B9-6293-4736-A969-26BA4281774C}" />
+				<ref key="{140F5D79-D5C0-4148-8E26-EE4C44DAB3D9}" />
+				<ref key="{E22D42EC-10CC-4B97-8399-94E4D4B61CAA}" />
+				<ref key="{30B39072-25F8-4DE4-97F3-C3CDD265F0C8}" />
 			</references>
 		</folder>
 	</folders>
