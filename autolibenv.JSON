@@ -1,13 +1,13 @@
 {
 	"PVT": {
-		"urlInternal": "https://uspto.gov",
+		"URL": "https://www.census.gov",
 		
 	},
 	"FQT": {
-		"urlInternal": "https://www.census.gov",
+		"URL": "https://www.census.gov",
 		
 	},
 	"SIT": {
-		"urlInternal": "https://www.cnn.com",
+		"URL": "https://www.census.gov",
 	}
 }
