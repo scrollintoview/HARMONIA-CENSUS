@@ -1,105 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE Nodes [
-
-<!ENTITY % NameValue "CDATA">
-<!ENTITY % PropType "(I|S|D|L|H|B)">
-<!ENTITY % VersionValue "CDATA">
-
-<!ELEMENT Prp (#PCDATA)>
-<!ELEMENT Node (Node|Prp)*>
-<!ELEMENT Nodes (Node)+>
-
-<!ATTLIST Nodes version CDATA "1">
-
-<!ATTLIST Node name CDATA #REQUIRED>
-
-<!ATTLIST Prp name CDATA #REQUIRED>
-<!ATTLIST Prp type CDATA #REQUIRED>
-<!ATTLIST Prp value CDATA #REQUIRED>
-]>
-<Nodes version="1">
-	<Node name="root">
-		<Node name="analysis">
-			<Prp name="key" type="S" value="{3D260293-A2AF-4B93-873F-F0EEF0345B94}"/>
-		</Node>
-		<Node name="child list">
-			<Node name="census_automation_test_prototype- hhg">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="CENSUS_AUTOMATION_TEST_PROTOTYPE- HHG\CENSUS_AUTOMATION_TEST_PROTOTYPE- HHG.mds"/>
-				</Node>
-				<Prp name="key" type="S" value="{206E01E9-167A-4B26-89FE-5E29DF36A1C0}"/>
-				<Prp name="pluginname" type="S" value=""/>
-				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
-				<Prp name="typename" type="S" value="Project"/>
-			</Node>
-		</Node>
-		<Node name="folders"/>
-		<Node name="scc">
-			<Node name="data"/>
-			<Prp name="key" type="S" value="{00000000-0000-0000-0000-000000000000}"/>
-			<Prp name="name" type="S" value=""/>
-		</Node>
-		<Node name="settings">
-			<Node name="{5a85e200-b5d2-4f74-972a-0221f2956a19}">
-				<Prp name="type" type="I" value="5"/>
-				<Prp name="value" type="S" value="Log"/>
-			</Node>
-			<Prp name="key" type="S" value="{8A9279BC-2880-4FAD-B682-DD86410C1B67}"/>
-			<Prp name="settingsversion" type="S" value="11.20"/>
-		</Node>
-		<Node name="test data">
-			<Node name="child list">
-				<Node name="item idx=0000">
-					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
-					<Prp name="key" type="S" value="{206E01E9-167A-4B26-89FE-5E29DF36A1C0}"/>
-					<Prp name="stoponerror" type="B" value="-1"/>
-					<Prp name="timeout" type="I" value="0"/>
-				</Node>
-			</Node>
-			<Prp name="key" type="S" value="{BCA132CF-A86A-4DA7-838C-145D19CEF134}"/>
-		</Node>
-		<Node name="variables">
-			<Node name="datav3">
-				<Node name="var0">
-					<Node name="defvalue">
-						<Node name="connectioninfo">
-							<Prp name="filename" type="S" value="TEST DATA\TestData.xls"/>
-							<Prp name="hascolumnnames" type="B" value="-1"/>
-							<Prp name="table" type="S" value="Master$"/>
-						</Node>
-						<Prp name="kind" type="S" value="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}"/>
-					</Node>
-					<Prp name="category" type="H" value=" "/>
-					<Prp name="descr" type="H" value=" "/>
-					<Prp name="local" type="B" value="0"/>
-					<Prp name="name" type="S" value="TEST_DATA"/>
-					<Prp name="type" type="S" value="{8ECBD24A-6DA1-4476-A473-EE3A52F06A83}"/>
-				</Node>
-				<Node name="var1">
-					<Node name="defvalue">
-						<Node name="connectioninfo">
-							<Prp name="delimiters" type="H" value="2C00"/>
-							<Prp name="filename" type="S" value="TEST DATA\TestData.csv"/>
-							<Prp name="hascolumnnames" type="B" value="-1"/>
-							<Prp name="textqualifier" type="S" value="&quot;"/>
-							<Prp name="unitedelimiters" type="B" value="0"/>
-							<Prp name="useoledb" type="B" value="0"/>
-						</Node>
-						<Prp name="kind" type="S" value="{CE6E0605-AE4F-45D5-8174-7C99555F214B}"/>
-					</Node>
-					<Prp name="category" type="H" value=" "/>
-					<Prp name="descr" type="H" value=" "/>
-					<Prp name="local" type="B" value="0"/>
-					<Prp name="name" type="S" value="TEST_DATA_CSV"/>
-					<Prp name="type" type="S" value="{8ECBD24A-6DA1-4476-A473-EE3A52F06A83}"/>
-				</Node>
-			</Node>
-			<Prp name="key" type="S" value="{21D56817-461F-4609-83B0-BC8E9A11AA9F}"/>
-			<Prp name="version" type="I" value="3"/>
-		</Node>
-		<Prp name="key" type="S" value="{6F44DCD7-D13E-42C0-A9CC-60CC838E94FB}"/>
-		<Prp name="signature" type="S" value="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}"/>
-		<Prp name="version" type="S" value="11.0"/>
-	</Node>
-</Nodes>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="12.0" key="{6F44DCD7-D13E-42C0-A9CC-60CC838E94FB}">
+	<children>
+		<child name="CENSUS_AUTOMATION_TEST_PROTOTYPE- HHG" key="{206E01E9-167A-4B26-89FE-5E29DF36A1C0}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="CENSUS_AUTOMATION_TEST_PROTOTYPE- HHG\CENSUS_AUTOMATION_TEST_PROTOTYPE- HHG.mds" />
+		</child>
+	</children>
+	<folders />
+	<testItems key="{BCA132CF-A86A-4DA7-838C-145D19CEF134}">
+		<children>
+			<testItem key="{206E01E9-167A-4B26-89FE-5E29DF36A1C0}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{21D56817-461F-4609-83B0-BC8E9A11AA9F}">
+		<data Version="3">
+			<Items>
+				<Variable Name="TEST_DATA" Type="{8ECBD24A-6DA1-4476-A473-EE3A52F06A83}" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="TEST DATA\TestData.xls" Table="Master$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="TEST_DATA_CSV" Type="{8ECBD24A-6DA1-4476-A473-EE3A52F06A83}" Local="False">
+					<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
+						<ConnectionInfo FileName="TEST DATA\TestData.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
+					</DefValue>
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<analysis key="{3D260293-A2AF-4B93-873F-F0EEF0345B94}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}" />
+</Root>

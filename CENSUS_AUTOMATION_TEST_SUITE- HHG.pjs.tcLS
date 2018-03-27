@@ -29,6 +29,9 @@
 			<Node name="{c7b743c0-6788-42fd-9385-c0ce90ffb348}">
 				<Prp name="relpath" type="S" value="Harmonia\TEST IRS UX_UI AGILE PROTOTYPE- HHG.mds.tcLS"/>
 			</Node>
+			<Node name="envmngrlogs">
+				<Prp name="key" type="S" value="{834599E9-160A-43B0-B7FC-C248C4483044}"/>
+			</Node>
 			<Node name="logs">
 				<Prp name="key" type="S" value="{B9D2DDBF-9FC7-40B5-9FE1-E9B6CE313144}"/>
 				<Prp name="relpath" type="S" value="Log"/>
