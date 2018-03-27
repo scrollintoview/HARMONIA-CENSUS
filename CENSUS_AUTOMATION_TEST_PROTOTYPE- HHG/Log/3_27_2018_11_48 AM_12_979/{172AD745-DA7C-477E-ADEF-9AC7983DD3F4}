@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="summary">
+			<Node name="warning">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Node name="total">
+				<Prp name="total (sum)" type="I" value="5"/>
+			</Node>
+			<Node name="passed">
+				<Prp name="total (sum)" type="I" value="2"/>
+			</Node>
+			<Node name="executed">
+				<Prp name="total (sum)" type="I" value="2"/>
+			</Node>
+			<Node name="failed">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Prp name="stop date" type="D" value="43186.4922598264"/>
+			<Prp name="user" type="S" value="mtran"/>
+			<Prp name="host" type="S" value="MTRAN-LTP"/>
+			<Prp name="log status" type="I" value="0"/>
+			<Prp name="test" type="S" value="Smoke Test Set- UX/UI IRS Agile Prototype Application"/>
+			<Prp name="start date" type="D" value="43186.4918170255"/>
+		</Node>
+		<Node name="log data">
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="details" type="S" value="{FB099EC9-652D-4D44-A053-1B79BB0D7F31}"/>
+				<Prp name="name" type="S" value="Before Test"/>
+				<Prp name="end time" type="D" value="43186.4922240162"/>
+				<Prp name="start time" type="D" value="43186.4918170255"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+			<Node name="row1">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43186.4922598264"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{FA25A928-F33C-454A-AC18-7FBC15C237E2}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="After Test"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="start time" type="D" value="43186.4922240278"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="-1"/>
+	</Node>
+</Nodes>

@@ -20,17 +20,7 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs">
-			<Node name="log idx=0000">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43185.860495787"/>
-				<Prp name="description" type="S" value="CENSUS_AUTOMATION_TEST_SUITE- HHG"/>
-				<Prp name="key" type="S" value="{86FE0B8D-B2B9-4262-BB88-5BCAF2D83073}"/>
-				<Prp name="nameofroot" type="S" value="CENSUS_AUTOMATION_TEST_SUITE- HHG"/>
-				<Prp name="relpath" type="S" value="3_26_2018_8_39 PM_06_836\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-		</Node>
+		<Node name="logs"/>
 		<Prp name="signature" type="S" value="{6511DB44-2372-47B8-8349-ADA0DB4D9E14}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>
