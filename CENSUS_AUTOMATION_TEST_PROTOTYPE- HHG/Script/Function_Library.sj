@@ -68,13 +68,13 @@ function launchBrowser() {
     try {
     var _bwr = getBrowserContent('browser');
     //Project.Variables.BROWSER;
-    var _url = getBrowserContent('urlInternal')//Project.Variables.URL;
+    var _url = getBrowserContent('URL')//Project.Variables.URL;
           Log.AppendFolder("Launching Application : \""+ _url+"\"", "",100,attr.sub);  
           closeBrowser();
               Browsers.Item(_bwr).Run(_url);
-              if(Aliases.BROWSER.CERTIFICATE_ERROR_PAGE.OVERIDE_LINK.WaitProperty("Exists",true,3000)){
-                 Aliases.BROWSER.CERTIFICATE_ERROR_PAGE.OVERIDE_LINK.Click();
-              }
+//              if(Aliases.BROWSER.CERTIFICATE_ERROR_PAGE.OVERIDE_LINK.WaitProperty("Exists",true,3000)){
+//                 Aliases.BROWSER.CERTIFICATE_ERROR_PAGE.OVERIDE_LINK.Click();
+//              }
               Sys.Browser(_bwr).Page("*").Wait();
               //Maximize the browser
               Sys.Browser(_bwr).BrowserWindow(0).Maximize();
@@ -82,12 +82,12 @@ function launchBrowser() {
               //This line of code verify TMNGI application is correctly launched  
               if (Aliases.BROWSER.PAGE.Exists) {
                   Log.Checkpoint("Browser Invoked",'',500,attr.ver,Sys.Desktop);
-                    if(Aliases.BROWSER.PAGE.LOGIN_TXT.WaitProperty("Exists",true,30000)){
-                       Log.Checkpoint("User Landed to Login Page",'',500,attr.ver,Sys.Desktop);
-                    }else{
-                      Log.Error("User Did not Land to Login Page",'',500,attr.err,Sys.Desktop);
-                       Runner.Stop();
-                    }
+//                    if(Aliases.BROWSER.PAGE.LOGIN_TXT.WaitProperty("Exists",true,30000)){
+//                       Log.Checkpoint("User Landed to Login Page",'',500,attr.ver,Sys.Desktop);
+//                    }else{
+//                      Log.Error("User Did not Land to Login Page",'',500,attr.err,Sys.Desktop);
+//                       Runner.Stop();
+//                    }
               } else {
                   Log.Error("Browser did not Invoke",'',500,attr.err,Sys.Desktop);
                   Runner.Stop();
@@ -208,15 +208,20 @@ Parameters        :keyVal
 Example           :getBrowserContent("browser")
 ********************************************************************************/
 function unitTest_getBrowserContent(){
-    var url = getBrowserContent('internalpassword');
+    var url = getBrowserContent('URL');
         Log.Message(url);
         browser = getBrowserContent('browser');
         Log.Message(browser);
+        // browser = getBrowserContent('URL');
   }
 function getBrowserContent(keyVal){
 try{
     var sPath = ProjectSuite.Path+"\setURL.txt";
           if(keyVal=='browser'){
+            var browser   = getValueByKey(sPath,keyVal).replace(" ","");
+            return browser;
+          }
+          else if(keyVal=='URL'){
             var browser   = getValueByKey(sPath,keyVal).replace(" ","");
             return browser;
           }
