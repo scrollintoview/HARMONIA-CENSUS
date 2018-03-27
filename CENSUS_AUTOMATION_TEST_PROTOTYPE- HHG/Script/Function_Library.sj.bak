@@ -1,4 +1,4 @@
-﻿//USEUNIT Utility_Lib
+﻿//USEUNIT UTIL
 
 
 /********************************************************************************
@@ -72,9 +72,9 @@ function launchBrowser() {
           Log.AppendFolder("Launching Application : \""+ _url+"\"", "",100,attr.sub);  
           closeBrowser();
               Browsers.Item(_bwr).Run(_url);
-              if(Aliases.BROWSER.CERTIFICATE_ERROR_PAGE.OVERIDE_LINK.WaitProperty("Exists",true,3000)){
-                 Aliases.BROWSER.CERTIFICATE_ERROR_PAGE.OVERIDE_LINK.Click();
-              }
+//              if(Aliases.BROWSER.CERTIFICATE_ERROR_PAGE.OVERIDE_LINK.WaitProperty("Exists",true,3000)){
+//                 Aliases.BROWSER.CERTIFICATE_ERROR_PAGE.OVERIDE_LINK.Click();
+//              }
               Sys.Browser(_bwr).Page("*").Wait();
               //Maximize the browser
               Sys.Browser(_bwr).BrowserWindow(0).Maximize();

@@ -1,4 +1,4 @@
-﻿//USEUNIT Utility_Lib
+﻿//USEUNIT UTIL
 
 
 /********************************************************************************
@@ -81,7 +81,7 @@ function launchBrowser() {
               Sys.Browser(_bwr).Refresh();
               //This line of code verify TMNGI application is correctly launched  
               if (Aliases.BROWSER.PAGE.Exists) {
-                  Log.Checkpoint("Browser Invoked",'',500,attr.ver,Sys.Desktop);
+                  Log.Event("Browser Invoked",'',500,attr.ver,Sys.Desktop);
 //                    if(Aliases.BROWSER.PAGE.LOGIN_TXT.WaitProperty("Exists",true,30000)){
 //                       Log.Checkpoint("User Landed to Login Page",'',500,attr.ver,Sys.Desktop);
 //                    }else{
