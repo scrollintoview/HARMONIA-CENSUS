@@ -23,75 +23,12 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42657.5418142245"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{0B99FEF9-7BD8-4776-A99B-2D3A38B6CFB4}"/>
-				<Prp name="nameofroot" type="S" value="IRS UX_UI AGILE PROTOTYPE- HHG"/>
-				<Prp name="relpath" type="S" value="10_14_2016_1_00 PM_12_739\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42657.5427148843"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{80306070-1B9E-4533-94B3-F42BF05ABF0D}"/>
-				<Prp name="nameofroot" type="S" value="IRS UX_UI AGILE PROTOTYPE- HHG"/>
-				<Prp name="relpath" type="S" value="10_14_2016_1_01 PM_30_566\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42657.5453061921"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{7C34173B-A5DB-4E4A-A0CB-AE570AAF3A32}"/>
-				<Prp name="nameofroot" type="S" value="IRS UX_UI AGILE PROTOTYPE- HHG"/>
-				<Prp name="relpath" type="S" value="10_14_2016_1_05 PM_14_455\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0003">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42657.5505451042"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{CFC85743-4B91-4F3D-A5DF-16A6B096EE79}"/>
-				<Prp name="nameofroot" type="S" value="IRS UX_UI AGILE PROTOTYPE- HHG"/>
-				<Prp name="relpath" type="S" value="10_14_2016_1_12 PM_47_97\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0004">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42657.5514793403"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{8B3A36CC-9D2F-4043-86AC-59A33B6D5D54}"/>
-				<Prp name="nameofroot" type="S" value="IRS UX_UI AGILE PROTOTYPE- HHG"/>
-				<Prp name="relpath" type="S" value="10_14_2016_1_14 PM_07_815\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0005">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42657.6004125694"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{BFD480CE-36B9-40B6-BA65-99D21624A111}"/>
-				<Prp name="nameofroot" type="S" value="IRS UX_UI AGILE PROTOTYPE- HHG"/>
-				<Prp name="relpath" type="S" value="10_14_2016_2_24 PM_35_646\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0006">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42657.6041328009"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{6DA86160-416B-4D6F-A53C-60839C2D4960}"/>
-				<Prp name="nameofroot" type="S" value="IRS UX_UI AGILE PROTOTYPE- HHG"/>
-				<Prp name="relpath" type="S" value="10_14_2016_2_29 PM_57_74\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0007">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42657.604479456"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{5E272834-C1FC-4C7A-83D2-4008DFCF28DE}"/>
-				<Prp name="nameofroot" type="S" value="IRS UX_UI AGILE PROTOTYPE- HHG"/>
-				<Prp name="relpath" type="S" value="10_14_2016_2_30 PM_27_25\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
+				<Prp name="datetime" type="D" value="43185.860495787"/>
+				<Prp name="description" type="S" value="CENSUS_AUTOMATION_TEST_SUITE- HHG"/>
+				<Prp name="key" type="S" value="{86FE0B8D-B2B9-4262-BB88-5BCAF2D83073}"/>
+				<Prp name="nameofroot" type="S" value="CENSUS_AUTOMATION_TEST_SUITE- HHG"/>
+				<Prp name="relpath" type="S" value="3_26_2018_8_39 PM_06_836\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{6511DB44-2372-47B8-8349-ADA0DB4D9E14}"/>
