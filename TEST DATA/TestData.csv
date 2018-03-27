@@ -1,8 +1,0 @@
-User Name,User,Status1,Make Payment,Refund Link,Status,Refund Status,Balance Due,Payments Made,Refund Due,AGI,Deductions,Excemptions,Filing Status
-John Doe,User - Return Not Available,Return Status is unavailable,FALSE,FALSE,Return Status is unavailable,Not Available,,,,$0.00,0,0,
-Beverly Rand,User - Filing Proposal Sent,Filling Proposal Sent,TRUE,FALSE,Extension Approved,Received 2016 return on,$333.00,$0.00,$333.00,"$300,000.00",3,2,Married filing separately
-Detra Stamper,User - Return Received,Return Received,TRUE,FALSE,"Payment of $2,600.00",Received 2016 return on:,"$4,000.00","$3,600.00",$400.00,"$44,000.00",4,4,Married filing jointly
-Chris Smith,User - Extension Approved,Extension Approved,FALSE,FALSE,Received 2016 return,,$222.00,$0.00,$222.00,"$200,000.00",4,5,Head of Household
-Irvin Veilleux,User - Refund Approved,Refund Approved,FALSE,TRUE,Refund Approved,Received 2016 return on,$500.00,$450.00,$50.00,"$55,000.00",5,1,Single
-Mohamed Dezern,User - Refund Approved w/Balance,Refund Approved w/Balance,TRUE,FALSE,Filing Proposal Sent,,$0.00,$0.00,$600.00,"$60,000.00",2,6,Qualifying widow(er) with dependent child
-Nana Tremaine,User - Refund Sent,Refund Send,FALSE,TRUE,Refund Sent,Received 2016 return on:,$0.00,$0.00,"$7,777.00","$70,000.00",7,1,Single
