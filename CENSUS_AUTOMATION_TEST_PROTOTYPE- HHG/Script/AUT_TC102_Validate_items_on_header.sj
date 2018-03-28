@@ -34,8 +34,11 @@ function AUT_TC102_Validate_items(links){
            var obj;
            for(var  i in links){
                 Log.AppendFolder("Verifying the link title \""+i+"\" the census home top banner",'',500,attr.ver);
-                      obj = findByText(Aliases.BROWSER.PAGE.HEADER_PANEL,i);
-                      if(obj){
+                      
+                      obj =Aliases.BROWSER.PAGE.HEADER_PANEL.FindChild(["ObjectType","contentText"],["Link",i],9)
+                      
+                      //obj = findByText(Aliases.BROWSER.PAGE.HEADER_PANEL,i);
+                      if(obj!=undefined){
                         Log.Checkpoint(i + " link titile is available on the banner",'',500,attr.ver);
                       }else{
                         Log.Error(i + " link titile is not available on the banner",'',500,attr.err);

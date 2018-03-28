@@ -11,11 +11,11 @@ Parameters        : searchText eg : test
 Pre condition     : CENSUS HOME PAGE HAS TO BE LIVE
 Objective         : N/A
 ********************************************************************************/
-function unitTest_AUT_TC101_Validate_search_feature_on_Census_Home_page(){
-  AUT_TC101_Validate_search_feature_on_Census_Home_page('test');
+function unitTest_AUT_TC101_Validate_search_feature(){
+  AUT_TC101_Validate_search_feature('test');
 }
 
-function AUT_TC101_Validate_search_feature_on_Census_Home_page(searchText){
+function AUT_TC101_Validate_search_feature(searchText){
    try{
           Log.AppendFolder("Validate \"Search Feature\" on census home page",'TC101',500,attr.par);
           CENSUS_HOME_PAGE_LIB.closeConnectedPanel();
