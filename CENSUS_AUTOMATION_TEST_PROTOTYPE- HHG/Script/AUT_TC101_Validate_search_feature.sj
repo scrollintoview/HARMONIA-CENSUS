@@ -27,7 +27,7 @@ function AUT_TC101_Validate_search_feature(searchText){
                Log.AppendFolder("Search for Key word "+ searchText ,'',500,attr.sub);
                   _util_setText(PAGE.SEARCH_FORM.FIELDSET.SEARCHBOX,searchText);
                   PAGE.SEARCH_FORM.FIELDSET.SEARCHBOX.Keys("[Enter]");
-                  Delay(1500,"Wait for search to end");
+                  Delay(2000,"Wait for search to end");
               Log.PopLogFolder();
               Log.AppendFolder("Vaidating Search result page",'',500,attr.val);   
                   if(findByText(PAGE,"Search results")){//Search results

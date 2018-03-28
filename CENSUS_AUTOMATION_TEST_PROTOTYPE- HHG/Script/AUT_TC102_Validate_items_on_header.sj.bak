@@ -16,7 +16,7 @@ Verify  the link Index A-Z  is available	A-Z  is available
 Verify  the link Glossary  is available	Glossary  is available
 Verify  the link FAQs  is available	FAQs  is available
 ********************************************************************************/
-function unitTest_AUT_TC102_Validate_items_on_header_top_links(){
+function unitTest_AUT_TC102_Validate_items(){
 Aliases.BROWSER.PAGE.ToUrl(Project.Variables.URL);
 linksobj =  {
             "U.S. Department of Commerce": "https://www.commerce.gov/",
@@ -26,14 +26,17 @@ linksobj =  {
             "FAQs":"https://ask.census.gov/"
            };
 
-  AUT_TC102_Validate_items_on_header_top_links(linksobj);
+  AUT_TC102_Validate_items(linksobj);
 
 }
-function AUT_TC102_Validate_items_on_header_top_links(links){
+function AUT_TC102_Validate_items(links){
   try {
            var obj;
            for(var  i in links){
                 Log.AppendFolder("Verifying the link title \""+i+"\" the census home top banner",'',500,attr.ver);
+                      
+                      Aliases.BROWSER.PAGE.HEADER_PANEL.FindChild()
+                      
                       obj = findByText(Aliases.BROWSER.PAGE.HEADER_PANEL,i);
                       if(obj){
                         Log.Checkpoint(i + " link titile is available on the banner",'',500,attr.ver);
